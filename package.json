@@ -26,6 +26,13 @@
   "categories": [
     "Themes"
   ],
+  "files": [
+    "themes/**",
+    "icon.png",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE.txt"
+  ],
   "contributes": {
     "themes": [
       {
