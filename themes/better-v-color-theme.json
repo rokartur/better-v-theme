@@ -293,7 +293,6 @@
   },
   "tokenColors": [
     {
-      // kolor dla nazw funkcji w deklaracjach
       "scope": [
         "entity.name.function",
         "entity.name.function.ts",
@@ -311,8 +310,11 @@
       }
     },
     {
-      "name": "Boolean Literals",
-      "scope": "constant.language.boolean",
+      "name": "Boolean (global)",
+      "scope": [
+        "constant.language.boolean",
+        "constant.language.json",
+      ],
       "settings": {
         "foreground": "#82D2CE"
       }
@@ -2032,7 +2034,6 @@
       "name": "Comment",
       "scope": "comment, punctuation.definition.comment, comment.line.double-slash, comment.block.documentation",
       "settings": {
-        // "fontStyle": "italic",
         "foreground": "#E4E4E45E"
       }
     },
