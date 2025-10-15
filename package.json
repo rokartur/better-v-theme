@@ -12,7 +12,8 @@
     "theme",
     "color-theme",
     "dark",
-    "better-v-theme"
+    "better-v-theme",
+    "better"
   ],
   "icon": "icon.png",
   "author": {
