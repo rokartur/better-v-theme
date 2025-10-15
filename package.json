@@ -31,7 +31,7 @@
     "icon.png",
     "README.md",
     "CHANGELOG.md",
-    "LICENSE.txt"
+    "LICENSE"
   ],
   "contributes": {
     "themes": [
