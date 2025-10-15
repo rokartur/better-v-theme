@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.4
+- Fix extensionButton.prominentForeground contrast
+
 ## 0.0.3
 - Update README.md with screenshots and credits
 
