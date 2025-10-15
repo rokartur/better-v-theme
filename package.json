@@ -1,0 +1,29 @@
+{
+  "name": "better-v-theme",
+  "displayName": "better-v-theme",
+  "description": "Better V Theme for VS Code",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rokartur/better-v-theme.git"
+  },
+  "author": {
+    "name": "Artur Rok",
+    "email": "rokartur@icloud.com"
+  },
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Better V Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/better-v-color-theme.json"
+      }
+    ]
+  }
+}
