@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.5
+- Update README.md badges for installs and rating
+
 ## 0.0.4
 - Fix extensionButton.prominentForeground contrast
 
