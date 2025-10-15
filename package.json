@@ -7,6 +7,7 @@
     "type": "git",
     "url": "https://github.com/rokartur/better-v-theme.git"
   },
+  "keywords": ["theme", "color-theme", "dark", "better-v-theme"],
   "author": {
     "name": "Artur Rok",
     "email": "rokartur@icloud.com"
