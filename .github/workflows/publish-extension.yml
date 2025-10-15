@@ -24,15 +24,15 @@ jobs:
           VERSION=$(node -p "require('./package.json').version")
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
-      - name: Publish to Visual Studio Marketplace
-        run: npx --yes @vscode/vsce@latest publish
-        env:
-          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+      - name: Create file
+        run: npx --yes @vscode/vsce@latest package
 
-      - name: Create Git tag and release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.package_version.outputs.version }}
-          release_name: ${{ steps.package_version.outputs.version }}
+          name: ${{ steps.package_version.outputs.version }}
+          files: better-v-theme-${{ steps.package_version.outputs.version }}.vsix
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
