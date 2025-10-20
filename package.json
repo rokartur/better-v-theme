@@ -36,9 +36,10 @@
   "contributes": {
     "themes": [
       {
-        "label": "Better V Theme",
+        "label": "Purple Haze",
+        "id": "Better V Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/better-v-color-theme.json"
+        "path": "./themes/purple-haze-theme.json"
       }
     ]
   }

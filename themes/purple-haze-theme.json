@@ -1,5 +1,5 @@
 {
-  "name": "Better V Color Theme",
+  "name": "Purple Haze",
   "colors": {
     "debugExceptionWidget.border": "#101010",
     "errorForeground": "#E34671",
@@ -48,7 +48,7 @@
     "gitDecoration.ignoredResourceForeground": "#E4E4E45E",
     "gitDecoration.modifiedResourceForeground": "#F1B467",
     "gitDecoration.untrackedResourceForeground": "#87C3FF",
-    "dropdown.background": "#101010",
+    "dropdown.background": "#0F0F0F",
     "dropdown.border": "#E4E4E413",
     "dropdown.foreground": "#E4E4E4EB",
     "editor.background": "#101010",
@@ -109,8 +109,8 @@
     "extensionButton.prominentBackground": "#626262",
     "extensionButton.prominentForeground": "#101010",
     "extensionButton.prominentHoverBackground": "#818181",
-    "input.background": "#1D1D1D",
-    "input.border": "#404040",
+    "input.background": "#0F0F0F",
+    "input.border": "#E4E4E413",
     "input.foreground": "#E4E4E4EB",
     "input.placeholderForeground": "#E4E4E45E",
     "inputOption.activeBorder": "#E4E4E400",
@@ -130,7 +130,7 @@
     "list.inactiveSelectionForeground": "#E4E4E4EB",
     "list.deemphasizedForeground": "#E4E4E48D",
     "list.dropBackground": "#E4E4E411",
-    "list.errorForeground": "#FC6B83",
+    "list.errorForeground": "#ff4665",
     "list.focusBackground": "#E4E4E41E",
     "list.focusForeground": "#E4E4E4EB",
     "list.highlightForeground": "#87C3FF",
@@ -232,7 +232,7 @@
     "minimap.selectionHighlight": "#E4E4E411",
     "minimap.errorHighlight": "#CD2A4F",
     "minimap.warningHighlight": "#ea7620",
-    "minimap.background": "#101010",
+    "minimap.background": "#101010"
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -241,7 +241,7 @@
     },
     "class.typeHint": "#82d2ce",
     "method.declaration": {
-      "foreground": "#EFB080",
+      "foreground": "#EFB080"
     },
     "entity.name.function": {
       "foreground": "#EFB080"
@@ -252,7 +252,7 @@
     "class.decorator.builtin:python": "#a8cc7c",
     "function": "#EFB080",
     "function.declaration": {
-      "foreground": "#AAA0FA",
+      "foreground": "#AAA0FA"
     },
     "variable": "#AAA0FA",
     "variable.declaration": {
@@ -313,7 +313,7 @@
       "name": "Boolean (global)",
       "scope": [
         "constant.language.boolean",
-        "constant.language.json",
+        "constant.language.json"
       ],
       "settings": {
         "foreground": "#82D2CE"
@@ -329,7 +329,7 @@
     {
       "name": "Env File Keys",
       "scope": [
-        "variable.other.env",
+        "variable.other.env"
       ],
       "settings": {
         "foreground": "#AAA0FA"
@@ -338,10 +338,10 @@
     {
       "name": "Env File Values",
       "scope": [
-        "source.env",             // wartość po "="
+        "source.env"
       ],
       "settings": {
-        "foreground": "#e394dc"     // kolor wartości
+        "foreground": "#e394dc"
       }
     },
     {

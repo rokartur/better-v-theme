@@ -7,8 +7,5 @@
 
 </div>
 
-## Screenshots
-<img alt="image" src="https://github.com/user-attachments/assets/35914d37-7471-4531-bafd-9afa219142ef" />
-
 ## Credits
 The theme is a combination and inspiration of JetBrains Fleet and Cursor Theme.

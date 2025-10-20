@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.7
+- Update colors
+
 ## 0.0.6
 - Increased contrast and improved readability of UI elements.
 - Fixed dotenv file key and value colors for better syntax clarity.
