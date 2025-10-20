@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.0.6
+- Increased contrast and improved readability of UI elements.
+- Fixed dotenv file key and value colors for better syntax clarity.
+- Unified foregrounds and placeholder colors to improve text legibility across panels and inputs.
+- Tuned editor visuals: selection, line highlight, bracket match, minimap highlights and gutter markers.
+
 ## 0.0.5
 - Update README.md badges for installs and rating
 
