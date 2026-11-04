@@ -370,18 +370,18 @@
     "class.decorator.builtin:python": "#a5ce70",
     "function": "#F6AD75",
     "function.declaration": {
-      "foreground": "#A497FF"
+      "foreground": "#F6AD75"
     },
-    "variable": "#A497FF",
+    "variable": "#d6d6dd",
     "variable.declaration": {
-      "foreground": "#A497FF"
+      "foreground": "#d6d6dd"
     },
     "variable.readonly": {
-      "foreground": "#A497FF"
+      "foreground": "#d6d6dd"
     },
     "support.variable.property": "#A497FF",
     "variable.constant": {
-      "foreground": "#A497FF"
+      "foreground": "#d6d6dd"
     },
     "variable.defaultLibrary": {
       "foreground": "#d6d6dd"
@@ -666,7 +666,7 @@
       "name": "JavaScript/TypeScript: Constant Variable",
       "scope": "variable.other.constant",
       "settings": {
-        "foreground": "#A497FF"
+        "foreground": "#d6d6dd"
       }
     },
     {
@@ -1247,14 +1247,14 @@
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#a497ff"
+        "foreground": "#a5ce70"
       }
     },
     {
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#a497ff"
+        "foreground": "#a5ce70"
       }
     },
     {

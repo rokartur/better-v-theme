@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.11
+- Separate syntax roles that all shared `#A497FF`: variables and constants now use the text color `#d6d6dd`, function declarations orange `#F6AD75` like function calls, and HTML/JSX attributes green `#a5ce70`. Properties stay lavender.
+
 ## 0.0.10
 - Raise saturation of all accent colors by 15% (OKLCH chroma, same hues), so syntax, git and status colors look less washed out.
 - Fix the terminal and editor sticky scroll hover: solid `#1A1A1A` instead of a translucent overlay that washed out the text.
