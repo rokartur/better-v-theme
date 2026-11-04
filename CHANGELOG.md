@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.8
+- Support VS Code 1.144: theme colors for chat, inline chat, the Agents window, sticky scroll, debug, symbol icons, bracket pairs and other surfaces that fell back to Dark Modern defaults.
+
 ## 0.0.7
 - Update colors
 
