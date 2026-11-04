@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.0.9
+- Fix secondary buttons (Disable, Uninstall) and extension Install button: light text on dark gray, dark text on light gray.
+- Fix dark-on-dark colors: Ports running process icon, SCM graph hover label, warning badges, inline edit gutter indicator.
+- Add visible borders to the Command Palette, notifications, find widget, hovers, suggestions and menus.
+- Raise contrast of status bar, inactive tabs, section headers, placeholders, line numbers, inlay hints and CodeLens to WCAG levels.
+
 ## 0.0.8
 - Support VS Code 1.144: theme colors for chat, inline chat, the Agents window, sticky scroll, debug, symbol icons, bracket pairs and other surfaces that fell back to Dark Modern defaults.
 
