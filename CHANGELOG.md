@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.10
+- Raise saturation of all accent colors by 15% (OKLCH chroma, same hues), so syntax, git and status colors look less washed out.
+- Fix the terminal and editor sticky scroll hover: solid `#1A1A1A` instead of a translucent overlay that washed out the text.
+
 ## 0.0.9
 - Fix secondary buttons (Disable, Uninstall) and extension Install button: light text on dark gray, dark text on light gray.
 - Fix dark-on-dark colors: Ports running process icon, SCM graph hover label, warning badges, inline edit gutter indicator.
