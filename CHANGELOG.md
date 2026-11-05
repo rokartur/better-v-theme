@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.12
+- Syntax colors now follow Cursor Dark (Cursor 3.28.7) rule for rule, with every accent 15% more saturated (OKLCH chroma, same hues, as in 0.0.10). This reverts the 0.0.11 remaps, brings Cursor's newer colors (numbers `#EFC782`, Markdown headings `#80C1D4`, comments `#F0F0F099`) and its C, C++, Python and CMake semantic token rules. Workbench UI colors are unchanged.
+
 ## 0.0.11
 - Separate syntax roles that all shared `#A497FF`: variables and constants now use the text color `#d6d6dd`, function declarations orange `#F6AD75` like function calls, and HTML/JSX attributes green `#a5ce70`. Properties stay lavender.
 
