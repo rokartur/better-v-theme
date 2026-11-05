@@ -36,10 +36,40 @@
   "contributes": {
     "themes": [
       {
-        "label": "Purple Haze",
+        "label": "Better V Cursor Dark",
         "id": "Better V Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/purple-haze-theme.json"
+        "path": "./themes/better-v-cursor-dark-theme.json"
+      },
+      {
+        "label": "Better V Graphite",
+        "id": "Better V Graphite",
+        "uiTheme": "vs-dark",
+        "path": "./themes/better-v-graphite-theme.json"
+      },
+      {
+        "label": "Better V Glacier",
+        "id": "Better V Glacier",
+        "uiTheme": "vs-dark",
+        "path": "./themes/better-v-glacier-theme.json"
+      },
+      {
+        "label": "Better V Ember",
+        "id": "Better V Ember",
+        "uiTheme": "vs-dark",
+        "path": "./themes/better-v-ember-theme.json"
+      },
+      {
+        "label": "Better V Dusk",
+        "id": "Better V Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/better-v-dusk-theme.json"
+      },
+      {
+        "label": "Better V Neon Night",
+        "id": "Better V Neon Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/better-v-neon-night-theme.json"
       }
     ]
   }

@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.0.13
+- Syntax colors are Cursor Dark (Cursor 3.28.7) 1:1, without the 15% saturation boost. The rules live in `themes/cursor-dark-syntax.json`, copied verbatim from Cursor and included by the theme, so a new Cursor release syncs with one file copy. Workbench UI colors are unchanged.
+- Rename the theme from Purple Haze to Better V Cursor Dark. The theme id stays `Better V Theme`, so `workbench.colorTheme` settings keep working.
+- Add five syntax palettes on the same workbench UI: Better V Graphite, Glacier, Ember, Dusk and Neon Night. Each one swaps the accent colors of the Cursor rules, and gives numbers their own color. `bun scripts/build-palettes.ts` regenerates them after a Cursor sync.
+
 ## 0.0.12
 - Syntax colors now follow Cursor Dark (Cursor 3.28.7) rule for rule, with every accent 15% more saturated (OKLCH chroma, same hues, as in 0.0.10). This reverts the 0.0.11 remaps, brings Cursor's newer colors (numbers `#EFC782`, Markdown headings `#80C1D4`, comments `#F0F0F099`) and its C, C++, Python and CMake semantic token rules. Workbench UI colors are unchanged.
 
