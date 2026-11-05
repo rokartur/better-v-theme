@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.14
+- Calm git colors in the Explorer and Source Control: every git decoration, list error and warning color and the source control graph (lanes and branch badges) now use HSL 60% saturation and 65% lightness with the previous hues. Renamed, staged, conflicting and submodule files and the graph get theme colors instead of the saturated VS Code defaults.
+
 ## 0.0.13
 - Syntax colors are Cursor Dark (Cursor 3.28.7) 1:1, without the 15% saturation boost. The rules live in `themes/cursor-dark-syntax.json`, copied verbatim from Cursor and included by the theme, so a new Cursor release syncs with one file copy. Workbench UI colors are unchanged.
 - Rename the theme from Purple Haze to Better V Cursor Dark. The theme id stays `Better V Theme`, so `workbench.colorTheme` settings keep working.
