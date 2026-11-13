@@ -20,34 +20,34 @@
     "variable.readonly:cpp": "#CCCCCC",
     "variable.readonly:c": "#CCCCCC",
     "method.declaration": {
-      "foreground": "#FFFFFF",
+      "foreground": "#76BAFE",
       "fontStyle": "bold"
     },
     "entity.name.function": {
-      "foreground": "#FFFFFF"
+      "foreground": "#76BAFE"
     },
     "function.builtin": "#8A8A8A",
     "class.builtin": "#8A8A8A",
-    "class.declaration:python": "#E4E4E4",
-    "support.variable.property": "#C8C8C8",
+    "class.declaration:python": "#84E9E2",
+    "support.variable.property": "#CBBAEB",
     "class.decorator.builtin:python": "#9A9A9A",
     "function.declaration": {
-      "foreground": "#FFFFFF",
+      "foreground": "#76BAFE",
       "fontStyle": "bold"
     },
     "operatorOverload": "#CCCCCC",
     "memberOperatorOverload": "#CCCCCC",
-    "namespace:cpp": "#E4E4E4",
+    "namespace:cpp": "#84E9E2",
     "variable.global:cpp": "#9A9A9A",
     "variable.global:c": "#9A9A9A",
-    "type:cpp": "#E4E4E4",
-    "function": "#FFFFFF",
+    "type:cpp": "#84E9E2",
+    "function": "#76BAFE",
     "function:cpp": {
       "foreground": "#F0F0F0",
       "fontStyle": "bold"
     },
     "class:python": {
-      "foreground": "#FFFFFF",
+      "foreground": "#76BAFE",
       "fontStyle": ""
     },
     "*.decorator:python": {
@@ -55,26 +55,26 @@
       "fontStyle": ""
     },
     "method:python": {
-      "foreground": "#FFFFFF",
+      "foreground": "#76BAFE",
       "fontStyle": ""
     },
     "method:cpp": {
-      "foreground": "#E4E4E4",
+      "foreground": "#84E9E2",
       "fontStyle": ""
     },
     "selfParameter": "#8A8A8A",
     "macro": "#9A9A9A",
-    "property:cpp": "#C8C8C8",
+    "property:cpp": "#CBBAEB",
     "variable:javascript": "#CCCCCC",
-    "property.declaration:cpp": "#C8C8C8",
-    "property.declaration:c": "#C8C8C8",
-    "type:c": "#E4E4E4",
+    "property.declaration:cpp": "#CBBAEB",
+    "property.declaration:c": "#CBBAEB",
+    "type:c": "#84E9E2",
     "function:c": {
       "foreground": "#F0F0F0",
       "fontStyle": "bold"
     },
-    "property:c": "#C8C8C8",
-    "function:cmake": "#E4E4E4",
+    "property:c": "#CBBAEB",
+    "function:cmake": "#84E9E2",
     "builtinConstant.readonly.builtin:python": "#8A8A8A"
   },
   "tokenColors": [
@@ -155,7 +155,7 @@
       "name": "Python: Self Parameter",
       "scope": "variable.parameter.function.language.special.self.python",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -176,14 +176,14 @@
       "name": "Rust: Standard Function",
       "scope": "support.function.std.rust",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
       "name": "Rust: Lifetime Name",
       "scope": "entity.name.lifetime.rust",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -236,14 +236,14 @@
       "name": "Diff: Changed",
       "scope": "markup.changed.diff",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
       "name": "Diff: Header",
       "scope": "meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -285,14 +285,14 @@
       "name": "JavaScript/TypeScript: Import Operator",
       "scope": "keyword.operator.expression.import",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
       "name": "JavaScript/TypeScript: Math",
       "scope": "support.constant.math",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -306,7 +306,7 @@
       "name": "JavaScript/TypeScript: Constant Variable",
       "scope": "variable.other.constant",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -316,7 +316,7 @@
         "storage.type.object.array.java"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -337,14 +337,14 @@
       "name": "Java: Method Meta",
       "scope": "meta.method.java",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
       "name": "Java: Modifiers and Types",
       "scope": "storage.modifier.import.java,storage.type.java,storage.type.generic.java",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -427,7 +427,7 @@
         "support.type.object.module"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -441,7 +441,7 @@
       "name": "variable.other.readwrite",
       "scope": "variable.other.readwrite",
       "settings": {
-        "foreground": "#E4E4E4"
+        "foreground": "#84E9E2"
       }
     },
     {
@@ -453,7 +453,7 @@
         "meta.definition.property.ts"
       ],
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -499,7 +499,7 @@
       "name": "JavaScript: Console Function",
       "scope": "entity.name.function.js,support.function.console.js",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -607,7 +607,7 @@
       "name": "Python: Function Call (Generic)",
       "scope": "meta.function-call.generic.python",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -680,7 +680,7 @@
       "name": "Java: Imports",
       "scope": "import.storage.java",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -706,21 +706,21 @@
         "variable.function"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
       "name": "Namespaces (All)",
       "scope": "entity.name.type.namespace",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
       "name": "Classes (All)",
       "scope": "support.class, entity.name.type.class",
       "settings": {
-        "foreground": "#E4E4E4"
+        "foreground": "#84E9E2"
       }
     },
     {
@@ -732,7 +732,7 @@
         "entity.name.class.identifier.namespace.type"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -746,7 +746,7 @@
       "name": "Type Name",
       "scope": "entity.name.type",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -767,7 +767,7 @@
       "name": "Methods",
       "scope": "keyword.other.special-method",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -793,21 +793,21 @@
       "name": "Java Storage",
       "scope": "token.storage.type.java",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
       "name": "Support",
       "scope": "support.function",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
       "name": "CSS: Property Name",
       "scope": "meta.property-name.css",
       "settings": {
-        "foreground": "#E4E4E4"
+        "foreground": "#84E9E2"
       }
     },
     {
@@ -821,7 +821,7 @@
       "name": "Inherited Class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -835,14 +835,14 @@
       "name": "Integers",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
       "name": "CSS: Color Constant",
       "scope": "constant.other.color",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -860,7 +860,7 @@
         "entity.name.tag.style"
       ],
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -869,7 +869,7 @@
         "entity.name.tag.html"
       ],
       "settings": {
-        "foreground": "#E4E4E4"
+        "foreground": "#84E9E2"
       }
     },
     {
@@ -883,14 +883,14 @@
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -918,14 +918,14 @@
       "name": "Headings",
       "scope": "markup.heading punctuation.definition.heading, entity.name.section",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
       "name": "Units",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -939,7 +939,7 @@
       "name": "Markdown: Bold Punctuation",
       "scope": "punctuation.definition.bold",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -960,7 +960,7 @@
       "name": "Markdown: Headings",
       "scope": "entity.name.section.markdown",
       "settings": {
-        "foreground": "#E4E4E4"
+        "foreground": "#84E9E2"
       }
     },
     {
@@ -974,7 +974,7 @@
       "name": "Markdown: Setext Headings",
       "scope": "markup.heading.setext",
       "settings": {
-        "foreground": "#E4E4E4"
+        "foreground": "#84E9E2"
       }
     },
     {
@@ -1031,7 +1031,7 @@
       "name": "Markdown: Link Title and Description",
       "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -1118,7 +1118,7 @@
       "name": "PHP: Use Statement",
       "scope": "support.other.namespace.use.php,support.other.namespace.use-as.php,support.other.namespace.php,entity.other.alias.php,meta.interface.php",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -1160,14 +1160,14 @@
       "name": "PHP: Types",
       "scope": "storage.type.php,meta.other.type.phpdoc.php,keyword.other.type.php,keyword.other.array.phpdoc.php",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
       "name": "PHP: Function Call",
       "scope": "meta.function-call.php,meta.function-call.object.php,meta.function-call.static.php",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -1195,7 +1195,7 @@
       "name": "PHP Goto",
       "scope": "entity.name.goto-label.php,support.other.php",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -1315,7 +1315,7 @@
       "name": "C#: Storage Type",
       "scope": "storage.type.cs",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -1329,7 +1329,7 @@
       "name": "Diagnostics: Info",
       "scope": "token.info-token",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -1388,7 +1388,7 @@
         "support.type.type.flowtype"
       ],
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -1397,7 +1397,7 @@
         "support.type.primitive"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -1445,7 +1445,7 @@
         "keyword.operator.assignment.go"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -1464,7 +1464,7 @@
         "entity.name.package.go"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -1519,7 +1519,7 @@
         "entity.global.clojure"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -1574,7 +1574,7 @@
         "source.makefile"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -1583,7 +1583,7 @@
         "storage.modifier.import.groovy"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -1592,7 +1592,7 @@
         "meta.method.groovy"
       ],
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -1619,7 +1619,7 @@
         "support.variable.semantic.hlsl"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -1653,7 +1653,7 @@
         "support.type.vb.asp"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -1662,7 +1662,7 @@
         "entity.name.function.xi"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {
@@ -1734,7 +1734,7 @@
         "constant.character.xi"
       ],
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -1743,7 +1743,7 @@
         "accent.xi"
       ],
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#CBBAEB"
       }
     },
     {
@@ -1781,7 +1781,7 @@
         "entity.name.scope-resolution.function.definition"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#76BAFE"
       }
     },
     {

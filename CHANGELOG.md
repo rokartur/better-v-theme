@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.15
+- Better V Graphite tells code roles apart by hue, not only by lightness. Functions, declarations, interface and type alias names move from white `#FFFFFF` to blue `#76BAFE`. Classes, components, library types such as `Promise`, `let` variables, imports and Markdown headings move from `#E4E4E4` to teal `#84E9E2`. Properties, `const` variables and JSX attributes move from `#C8C8C8`, the same gray as plain text, to lavender `#CBBAEB`. Keywords, strings, numbers, comments and plain text keep their colors.
+
 ## 0.0.14
 - Calm git colors in the Explorer and Source Control: every git decoration, list error and warning color and the source control graph (lanes and branch badges) now use HSL 60% saturation and 65% lightness with the previous hues. Renamed, staged, conflicting and submodule files and the graph get theme colors instead of the saturated VS Code defaults.
 

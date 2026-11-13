@@ -15,7 +15,7 @@ const cursor = {
 }
 
 const palettes = {
-  Graphite: { keyword: '#8A8A8A', call: '#FFFFFF', declaration: '#FFFFFF', property: '#C8C8C8', string: '#9FD4A3', number: '#D4B98C', type: '#E4E4E4', comment: '#5C5C5C', decorator: '#9A9A9A', text: '#C8C8C8' },
+  Graphite: { keyword: '#8A8A8A', call: '#76BAFE', declaration: '#76BAFE', property: '#CBBAEB', string: '#9FD4A3', number: '#D4B98C', type: '#84E9E2', comment: '#5C5C5C', decorator: '#9A9A9A', text: '#C8C8C8' },
   Glacier: { keyword: '#81A1C1', call: '#88C0D0', declaration: '#8FBCBB', property: '#D8DEE9', string: '#A3BE8C', number: '#B48EAD', type: '#EBCB8B', comment: '#616E88', decorator: '#8FBCBB', text: '#D8DEE9' },
   Ember: { keyword: '#FF8F6B', call: '#FFD089', declaration: '#FFB86B', property: '#E6C3A5', string: '#B5D99C', number: '#F2A7C3', type: '#7FD4C1', comment: '#8A7F76', decorator: '#FFD089', text: '#E8DDD3' },
   Dusk: { keyword: '#C4A7E7', call: '#EBBCBA', declaration: '#F0C6C4', property: '#9CCFD8', string: '#F6C177', number: '#EB6F92', type: '#5FA8BF', comment: '#6E6A86', decorator: '#C4A7E7', text: '#E0DEF4' },
